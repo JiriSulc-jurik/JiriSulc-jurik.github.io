@@ -1,0 +1,17 @@
+h1 {
+	color: rgb(0, 55, 255);
+	font-size: 40px;
+	font-weight: 400;
+}
+
+p {
+	font-family: "Times New Roman", Arial, Helvetica;
+}
+
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
