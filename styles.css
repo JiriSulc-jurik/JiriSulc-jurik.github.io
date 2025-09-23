@@ -2,7 +2,7 @@ h1 {
 	color: rgb(255, 255, 255);
 	font-size: 40px;
 	font-weight: 500;
-    background: linear-gradient(to right, #4512d2, #7109da);
+    background: linear-gradient(270deg, #33a946, #1456ca, #33a946);
     text-align: center;
 }
 
@@ -22,7 +22,7 @@ body {
 
 a {
 	text-decoration: none;
-	background: rgb(27, 25, 25);
+	background: rgb(182, 156, 244);
 	color: white;
 
 	
