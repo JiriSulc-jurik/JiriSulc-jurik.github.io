@@ -1,29 +1,47 @@
 h1 {
-	color: rgb(255, 255, 255);
-	font-size: 40px;
-	font-weight: 500;
-    background: linear-gradient(270deg, #33a946, #1456ca, #33a946);
-    text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 500;
+  background: linear-gradient(270deg, #FFE8DB, #739EC9, #FFE8DB);
+  text-align: center;
 }
 
 p {
-	font-family: "Times New Roman", Arial, Helvetica;
+  font-family: "Times New Roman", Arial, Helvetica;
 }
 
-
 body {
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-	background-color: #451c83;
-	color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #113F67;
+  color: #FFE8DB;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-	text-decoration: none;
-	background: rgb(182, 156, 244);
-	color: white;
+  text-decoration: none;
+  color: #FFE8DB;
+}
 
-	
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: #5682B1;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
 }
