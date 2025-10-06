@@ -1,85 +1,104 @@
-h1 {
-  color: rgb(255, 255, 255);
-  font-size: 40px;
-  font-weight: 500;
-  background: linear-gradient(270deg, #FFE8DB, #739EC9, #FFE8DB);
-  text-align: center;
-}
-
-p {
-  font-family: "Times New Roman", Arial, Helvetica;
+.box {
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
-  font-style: normal;
   background-color: #113F67;
   color: #FFE8DB;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: #dbfaff;
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
+
+.logo {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #099bd9;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 10px 12px;
+  margin: 0 4px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+nav ul li a:hover {
+  background-color: #099bd9;
+  color: #fff;
+}
+
+
+nav ul li a.active {
+  background-color: #099bd9;
+  color: #fff;
+}
+
 
 .container {
   max-width: 1024px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   padding: 20px;
   border-radius: 15px;
-  box-sizing: border-box;
   background-color: #5682B1;
+  text-align: center;
 }
 
-.container ul {
-  list-style: none;
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  background: linear-gradient(270deg, #FFE8DB, #739EC9, #FFE8DB);
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
+
+h2 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+p {
+  font-family: "Times New Roman", Arial, Helvetica;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
 
 .container img {
   display: block;
   margin: 0 auto;
   border-radius: 15px;
-}
-
-
-li {
-  display: inline;
-}
-
-
-#navbar {
-  background-color: #333;
-  color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-#navbar a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-#navbar ul {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-#navbar ul li a {
-  padding: 10px;
-  margin: 0 4px;
-}
-
-#navbar ul li a:hover {
-  background-color: #099bd9;
-  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
 }
