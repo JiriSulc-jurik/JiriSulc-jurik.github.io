@@ -1,13 +1,11 @@
-
 body {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
-  background-color: #113F67;
-  color: #FFE8DB;
+  background-color: #00214f;
+  color: #ffffff;
   margin: 0;
   padding: 0;
 }
-
 
 .container {
   max-width: 64rem;
@@ -15,16 +13,15 @@ body {
   margin: 0 auto;
   padding: 1.25rem;
   border-radius: 0.9375rem;
-  background-color: #5682B1;
+  background-color: #739bd4;
   text-align: center;
 }
-
 
 h1 {
   color: #fff;
   font-size: 2.5rem;
   font-weight: 500;
-  background: linear-gradient(270deg, #FFE8DB, #739EC9, #FFE8DB);
+  background: linear-gradient(270deg, #FFE8DB, #a6bcdd, #FFE8DB);
   padding: 0.625rem 0;
   border-radius: 0.625rem;
   margin-bottom: 1.25rem;
@@ -35,13 +32,12 @@ h2 {
   margin-top: 1.25rem;
 }
 
-
 p {
   font-family: "Times New Roman", Arial, Helvetica;
   line-height: 1.5;
   margin-top: 0.625rem;
+  color: #ffffff;
 }
-
 
 .container img {
   display: block;
@@ -51,7 +47,6 @@ p {
   height: auto;
 }
 
-
 .text-primary {
-  color: #099bd9;
+  color: #4277c3;
 }
