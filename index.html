@@ -2,53 +2,52 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resell World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
 
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
 
-    <h1>Resell <span class="text-primary">WORLD</span></h1>
+  <header class="main-header">
+    <h1>PORTFOLIO</h1>
+  </header>
 
-    <main>
+  <main class="content">
+    <section class="about">
+      <h2>O mně</h2>
       <p>
-        <a href="https://jirisulc-jurik.github.io/html/" target="_blank" rel="noopener noreferrer">https://jirisulc-jurik.github.io/html/</a>
+        Zajímám se o reselling – přeporodávání zboží se ziskem. 
+        Baví mě hledat zajímavé produkty, sledovat trendy a pomáhat lidem pochopit, 
+        jak zlepšit svůj prodejní přístup.
       </p>
+    </section>
 
-      <section>
-        <h2>O mně</h2>
-        <p>
-          Zajímám se o reselling – přeporodávání zboží se ziskem.
-          Baví mě hledat zajímavé produkty, sledovat trendy a vytvářet značky, které dávají smysl.
-          Začínal jsem s malými věcmi z online bazarů, ale postupně jsem se naučil nakupovat chytře,
-          sledovat poptávku a prodávat efektivně – nejen pro sebe, ale i pro ostatní.
-        </p>
+    <section class="projects">
+      <h2>Projekty</h2>
+      <div class="project-card" onclick="window.open('https://jirisulc-jurik.github.io/html/')">
+        <h3>Resell World</h3>
+        <p>Projekt o resellingu</p>
+      </div>
+    </section>
+  </main>
 
-        <h2>Resell Web</h2>
-        <p>
-          Web, který pomáhá lidem začít s resellingem krok za krokem.
-          Cílem je jasně a jednoduše ukázat, jak najít vhodné produkty, jak je prodávat
-          a jak vybudovat vlastní značku.
-        </p>
-      </section>
-    </main>
 
-    <footer>
-      <p>
-        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjirisulc-jurik.github.io%2Fhtml%2F">
-          <img src="https://www.w3.org/Icons/valid-html32-blue" width="88" height="31" alt="Validní HTML">
-        </a>
-        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjirisulc-jurik.github.io%2Fhtml%2F">
-          <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" width="88" height="31" alt="Validní CSS">
-        </a>
-      </p>
-    </footer>
-  </div>
+  <footer>
+    <p>
+      <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjirisulc-jurik.github.io%2Fhtml%2F">
+        <img style="border:0;width:88px;height:31px"
+            src="https://www.w3.org/Icons/valid-html32-blue"
+            alt="Ověřit CSS!" >
+    </a>
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjirisulc-jurik.github.io%2Fhtml%2F">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Ověřit CSS!" >
+    </a>
+     </p>
+  </footer>
+
 </body>
 </html>

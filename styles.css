@@ -1,52 +1,66 @@
 body {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
-  background-color: #00214f;
-  color: #ffffff;
+  background-color: #111;   
+  color: #ddd;             
   margin: 0;
   padding: 0;
-}
-
-.container {
-  max-width: 64rem;
-  width: 100%;
-  margin: 0 auto;
-  padding: 1.25rem;
-  border-radius: 0.9375rem;
-  background-color: #739bd4;
   text-align: center;
 }
 
-h1 {
-  color: #fff;
-  font-size: 2.5rem;
-  font-weight: 500;
-  background: linear-gradient(270deg, #FFE8DB, #a6bcdd, #FFE8DB);
-  padding: 0.625rem 0;
-  border-radius: 0.625rem;
-  margin-bottom: 1.25rem;
+
+.main-header {
+  background-color: #34f504;  
+  color: #ffffff;
+  padding: 15px 0;
+}
+
+.main-header h1 {
+  font-size: 4rem;
+  font-weight: 1000;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
 }
 
 h2 {
-  color: #fff;
-  margin-top: 1.25rem;
+  color: #04df9d;          
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 p {
-  font-family: "Times New Roman", Arial, Helvetica;
-  line-height: 1.5;
-  margin-top: 0.625rem;
-  color: #ffffff;
+  line-height: 1.6;
+  color: #ccc;
+  margin-top: 10px;
 }
 
-.container img {
-  display: block;
-  margin: 0 auto;
-  border-radius: 0.9375rem;
-  max-width: 100%;
-  height: auto;
+.project-card {
+  border: 2px solid #04df9d;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 30px;
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #111;
 }
 
-.text-primary {
-  color: #4277c3;
+.project-card:hover {
+  background-color: #1a1a1a;
+}
+
+.project-card h3 {
+  color: #04df9d;
+  margin-bottom: 10px;
+}
+
+footer a {
+  outline: none;         
+  text-decoration: none; 
 }
